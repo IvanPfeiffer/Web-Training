@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Forms Demo</title>
+  <script type="text/javascript"
+    src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=wIRkXhH7HmfD2P9ewFyjlkYTfpfszCkqB1GJMdchPWgjfFJMOUKdx1p4PSglN1KNDWhLlwX4Gu0rVNUeG-jhktrBdY8E1FmbISRuooKhjkt_se-9OZmeNdZh2y5elOXnPTKwf99NIeYCodqsFA4rSRAw_pQQ9-DnlRtNsHqpiRegVdlWmU-5BOkDM7GBJ1SvdMM-0cYZs1drLvUnMRNiBrJ0WJOYnUXvgZb-9SCa1PY"
+    charset="UTF-8"></script>
+</head>
+
+<body>
+  <h1>Forms Demo</h1>
+  <form action="/tacos">
+    <p>
+      <label for="Username"> Enter a Username</label>
+      <input id="Username" type="text" placeholder="Text Input" name="Username" />
+    </p>
+    <p>
+      <label for="password">Enter a Password</label>
+      <input id="password" type="password" placeholder="Password Input" />
+    </p>
+    <p>
+      <label for="color">Choose a Color</label>
+      <input id="color" type="color" name="color" />
+    </p>
+    <label for="number">Enter a Number</label>
+    <input id="number" type="number" placeholder="Number Input" />
+    <label for="dateSelector">Select a Date</label>
+    <input id="dateSelector" type="date" />
+    <div>
+      <button type="button">Submit</button>
+      <input type="submit" value="Click Me">
+    </div>
+  </form>
+  <hr>
+  <button>Not Inside the form!</button>
+  <form action="https://www.google.com/search">
+    <label for="GoogleSearch">Google Search</label>
+    <input id="GoogleSearch" type="text" name="q">
+    <button>Search Google</button>
+  </form>
+  <h2>Press Enter to Submit</h2>
+  <form action="https://www.youtube.com/results">
+    <label for="YoutubeSearch">Youtube Search</label>
+    <input type="text" name="search_query" id="YoutubeSearch" placeholder="Search...">
+  </form>
+</body>
+
+</html>
