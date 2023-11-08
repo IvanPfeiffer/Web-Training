@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"
+    />
+    <link rel="stylesheet" href="app.css" />
+  </head>
+  <body>
+    <div class="columns is-mobile is-centered p-4">
+      <div class="column is-one-quarter">
+        <div class="box">
+          <h1><span class="is-size-2" id="display">0.00</span></h1>
+          <hr />
+          <div class="buttons are-medium is-justify-content-center">
+            <button class="button column" id="%">%</button>
+            <button class="button column" value="0.00" id="CE">CE</button>
+            <button class="button column" value="0.00" id="C">C</button>
+            <button class="button column" id="Del">
+              <span>&larr;</span>
+            </button>
+          </div>
+          <div class="buttons are-medium is-justify-content-center">
+            <button class="button column" id="reci">
+              <span>&#8543;x</span>
+            </button>
+            <button class="button column" id="squared">
+              x <sup class="is-size-7">2</sup>
+            </button>
+            <button class="button column" id="root"><p>&radic;x</p></button>
+            <button class="button column" id="div">/</button>
+          </div>
+          <div class="buttons are-medium is-justify-content-center">
+            <button class="button column" value="7" id="number">7</button>
+            <button class="button column" value="8" id="number">8</button>
+            <button class="button column" value="9" id="number">9</button>
+            <button class="button column" id="mult">*</button>
+          </div>
+          <div class="buttons are-medium is-justify-content-center">
+            <button class="button column" value="4" id="number">4</button>
+            <button class="button column" value="5" id="number">5</button>
+            <button class="button column" value="6" id="number">6</button>
+            <button class="button column" id="minus">-</button>
+          </div>
+          <div class="buttons are-medium is-justify-content-center">
+            <button class="button column" value="1" id="number">1</button>
+            <button class="button column" value="2" id="number">2</button>
+            <button class="button column" value="3" id="number">3</button>
+            <button class="button column" id="plus">
+              <span> &#x2B;</span>
+            </button>
+          </div>
+          <div class="buttons are-medium is-justify-content-center">
+            <button class="button column" id="plusMinus">
+              <span>&#8723; </span>
+            </button>
+            <button class="button column" value="0" id="number">0</button>
+            <button class="button column" value="." id="dot">.</button>
+            <button class="button is-info column" id="equal">=</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
