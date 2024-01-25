@@ -1,0 +1,12 @@
+<!-- //This will include the head in every file that this is referenced to. -->
+<%- include('partials/head') %> 
+  <body>
+    <%- include('partials/navbar') %>
+    <h1>Your random number is <%= rand %></h1>
+    <% if(rand % 2 === 0){ %>
+    <h2>That is an even number</h2>
+    <% } else {%>
+    <h2>This is an odd number</h2>
+    <% } %>
+  </body>
+</html>
