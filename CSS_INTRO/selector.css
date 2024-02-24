@@ -1,0 +1,77 @@
+/** {
+    background-color: cyan;
+}*/
+body {
+    background-color: #f1faee;
+}
+
+button {
+    font-size: 30px;
+    background-color: #a8dadc;
+}
+
+h1, h2{
+    color: #1d3557;
+}
+
+#signup {
+    background-color: #1d3557;
+    color: #f1faee;
+}
+
+span {
+    color: #457b9d ;
+}
+
+.tag{
+    background-color: #e63946;
+    color: #f1faee ;
+    font-size: 20px;
+}
+
+.post a {
+    color: purple;
+}
+
+footer a {
+    color: #e63946;
+}
+
+input + button {
+    background-color: pink;
+}
+
+h2 + button {
+    font-size: 30px;
+}
+
+footer > a {
+    color: rgb(159, 13, 196);
+}
+
+input[placeholder=password] {
+    color: gold;
+}
+
+section[class=post]{
+    background-color: white;
+    box-shadow: 6px 2px 2px rgb(161, 117, 117);
+}
+
+.post button:hover{
+    background-color: #e63946;
+    color: #f1faee;
+}
+
+footer a:hover {
+    text-decoration: underline dotted red;
+}
+
+section[class=post]:nth-of-type(2n){
+    background-color: blanchedalmond;
+}
+
+h2::first-letter{
+    font-size: larger;
+    color: #e63946;
+}
